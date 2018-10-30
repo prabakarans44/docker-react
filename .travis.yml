@@ -8,7 +8,7 @@ script:
   - docker run prabakaran/docker-react npm run test -- --coverage
 deploy:
   provider: elasticbeanstalk
-  region" "ap-south-1"
+  region: "ap-south-1"
   app: "dockerreact"
   env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-ap-south-1-213641575492"
